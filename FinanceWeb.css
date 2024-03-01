@@ -1,0 +1,499 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+.container{
+    background-color: rgb(37, 84, 238);
+    width: 100%;
+}
+.container-isi{
+    width: 85%;
+    background-color:  rgb(37, 84, 238);
+    margin: auto;
+    height: 650px;
+}
+.menu a{
+    text-decoration: none;
+    margin: 10px;
+    color: rgb(224, 224, 224);
+    font-size:14px;
+}
+.logo{
+    color: white;
+    margin-left: -140px;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Work Sans', sans-serif;
+}
+.navigasi{
+    background-color: rgb(37, 84, 238);
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    align-items: center;
+    padding-top: 20px;
+}
+.menu ul li{
+    display: inline;
+}
+.menu a:hover{
+    text-decoration: none;
+    margin: 10px;
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+.text p{
+    color: rgb(240, 240, 240);
+    padding-right: 10px;
+    margin-top: 15px;
+}
+.kontak{
+    color: white;
+    font-size: 15px;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    height: 500px;
+    margin-top: 28px;
+}
+.hero img{
+    width: 100%;
+    border-radius: 5px;
+
+}
+.navigasi .kontak{
+    margin-right: -120px;
+}
+.text h4{
+    font-size: 50px;
+    color: white;
+}
+.text .button0{
+    display: flex;
+    font-weight: 300;
+    
+}
+.text .button{
+    margin-right: 15px;
+    margin-top:  50px;
+    height: 30px;
+    width: 130px;
+    background-color: white;
+    color: rgb(37, 84, 238);
+    text-align: center;
+    padding-top: 15px;
+    font-size: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: solid 1px;
+    justify-content: center;
+}
+.text .button:hover{
+    margin-right: 15px;
+    margin-top:  50px;
+    height: 30px;
+    width: 130px;
+    background-color: rgb(37, 84, 238);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 15px;
+    font-size: 12px;
+    border-radius: 5px;
+    border: solid 1px;
+    border-color: white;
+    transition: 0.5s;
+}
+.text .button2{
+    margin-right: 10px;
+    margin-top:  50px;
+    height: 30px;
+    width: 130px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 15px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.payment{
+    background-color: white;
+    width: 100%;
+    height: 700px;
+}
+.container2{
+    width: 100%;
+    height: 600px;
+    margin: auto;
+    background-color: white;
+}
+.payment{
+    width: 85%;
+    height: 600px;
+
+    margin: auto;
+    display: flex;
+    
+}
+.gambar2 img{
+    width: 92%;
+    margin-top: 65px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+.payment .text2{
+    font-size: 24px;
+    margin-top: 70px;
+    margin-left: 50px;
+
+    width: 500px;
+}
+.text2 p{
+    font-size: 15px;
+    color: rgb(192, 192, 192);
+    margin-top: 10px;
+}
+.financial{
+    margin-top: 50px;
+    font-size: 22px;
+    margin-left: 80px;
+    display: flex;
+}
+.img{
+    margin-left: -80px;
+    background-color: rgb(241, 241, 241);
+    color: rgb(37, 84, 238);
+    height: 50px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    justify-content: center;
+}
+.text3{
+    margin-left: 30px;
+
+}
+.container3{
+    background-color: rgb(37, 84, 238);
+    height: 230px;
+}
+.container3 .section3{
+    width: 85%;
+    height: 230px;
+    background-color: rgb(37, 84, 238);
+    margin: auto;
+    display: flex;
+    
+}
+.photo1{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    justify-content: center;
+}
+.font1{
+    font-size: 20px;
+    /* color: white; */
+    margin-top: 70px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25px;
+    color: white;
+}
+.font1 p{
+    font-size: 15px;
+    color: rgb(192, 192, 192);
+    margin-top: 10px;
+    justify-content: center;
+    margin-right: 50px;
+}
+.text3 p{
+        font-size: 15px;
+    color: rgb(192, 192, 192);
+    margin-top: 10px;
+    justify-content: center;
+    margin-right: 50px;
+}
+.container4{
+    background-color: rgb(255, 255, 255);
+    height: 650px;
+}
+.container4 .section4{
+    width: 85%;
+    height: 650px;
+    margin: auto;
+    display: flex;
+}
+.text5{
+    font-size: 24px;
+    margin-top: 70px;
+    width: 500px;
+}
+.gambar3 img{
+    width: 92%;
+    margin-top: 65px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    margin-left: 60px;
+}
+.container5{
+    height: 1050px;
+    background-color: rgb(243, 243, 243);
+
+}
+.container5 .service{
+    background-color: rgb(243, 243, 243);
+    width: 85%;
+    margin: auto;
+    height: 1050px;
+}
+.service .ourservice{
+    text-align: center;
+    padding-top: 65px;
+}
+.ourservice h1{
+    color: rgb(37, 84, 238);
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+}
+.ourservice p{
+    font-size: 16px;
+    margin-top: 10px;
+    color: rgb(151, 151, 151);
+    justify-content: center;
+}
+.konten1,.konten2,.konten3,.konten4,.konten5,.konten6 {
+    background-color: rgb(255, 255, 255);
+    height: 300px;
+    border-radius: 5px;
+    padding: 10px;
+    padding-top: 50px;
+    margin-top: 50px;
+}
+.containergrid p{
+    font-size: 15px;
+    color: rgb(151, 151, 151);
+    margin-top: 10px;
+    justify-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.containergrid{
+    display: grid;
+    grid-template-areas: "konten1 konten2 konten3" 
+                        "konten4 konten5 konten6";
+    gap: 20px;
+    justify-content: center;
+}
+.container5 .konten1{
+    grid-area: konten1;
+}
+.container5 .konten2{
+    grid-area: konten2;
+}
+.container5 .konten3{
+    grid-area: konten3;
+}
+.container5 .konten4{
+    grid-area: konten4;
+}
+.container5 .konten5{
+    grid-area: konten5;
+}
+.container5 .konten6{
+    grid-area: konten6;
+}
+.servlogo{
+    color: rgb(37, 84, 238);
+    font-size: 50px;
+}
+.textkonten{
+    padding-top: 30px;
+    font-size: 18px;
+}
+.read{
+    margin-top: 40px;
+    height: 18px;
+    width: 110px;
+    color: rgb(37, 84, 238);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    border: 1px solid rgb(37, 84, 238);
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    font-size: 14px;
+}
+.read:hover{
+    margin-top: 40px;
+    height: 18px;
+    width: 110px;
+    color: rgb(255, 255, 255);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    border: 1px solid rgb(37, 84, 238);
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    font-size: 14px;
+    background-color: rgb(37, 84, 238);
+    transition: 0.5s;
+}
+.container6{
+    height: 230px;
+    background-color: rgb(37, 84, 238);
+
+}
+.contact{
+    height: 230px;
+    width: 85%;
+    margin: auto;
+    display: flex;
+}
+.contact .talk{
+    color: white;
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 30px;
+    margin-top: 65px;
+}
+.talk p{
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: lighter;
+}
+.contact-button{
+    border: 1px solid white;
+    margin-left: 600px;
+    margin-top: 100px;
+    width: 90px;
+    font-size: 13px;
+    padding: 15px;
+    height: 18px;
+    border-radius: 5px;
+    color: rgb(37, 84, 238);
+    background-color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.contact-button:hover{
+    border: 1px solid white;
+    margin-left: 600px;
+    margin-top: 100px;
+    width: 90px;
+    font-size: 13px;
+    padding: 15px;
+    height: 18px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(37, 84, 238);
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.containerlast{
+    background-color: rgb(37, 84, 238);
+    height: 500px;
+}
+.footer{
+    width: 85%;
+    height: 500px;
+    background-color: rgb(37, 84, 238);
+    margin: auto;
+}
+.ft1{
+    color: white;
+    list-style: none;
+    line-height: 30px;
+    width: 400px;
+    /* background-color: rgb(0, 67, 126); */
+    font-size: 14px;
+    grid-area: about;
+}
+.company1{
+    list-style: none;
+    grid-area: company1;
+    font-size: 13px;
+    line-height: 32px;
+    width: 200px;
+    margin-left: -100px;
+    cursor: pointer;
+}
+.company1, .company2,.nav li{
+    color: rgb(212, 212, 212);
+}
+.company1 li:hover{
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+.company2 li:hover{
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+.company2{
+    list-style: none;
+    grid-area: company2;
+    font-size: 13px;
+    line-height: 32px;
+    margin-top: 35px;
+    margin-left: -150px;
+    cursor: pointer;
+}
+.nav{
+    list-style: none;
+    grid-area: nav;
+    font-size: 13px;
+    line-height: 32px;
+    color: white;
+    margin-right: -100px;
+    cursor: pointer;
+}
+.nav li:hover{
+    color: white;
+    transition: 0.5s;
+}
+.navlogo{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(68, 110, 228);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.navlogo:hover{
+    background-color: white;
+    color: rgb(68, 110, 228);
+    transition: 0.5s;
+}
+.isift{
+    display: grid;
+    grid-template-areas: "about company1 company2 nav";
+}
+.copy{
+    color: white;
+    font-size: 14px;
+    font-weight: lighter;
+    display: grid;
+    justify-content: center;
+    margin-top: 50px;
+}
+@media (max-width:800px){
+    .container{
+        flex-wrap: wrap;
+    }
+}
